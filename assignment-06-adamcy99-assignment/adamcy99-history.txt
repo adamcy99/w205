@@ -1,0 +1,268 @@
+    1  df -k
+    2  vi myfile.txt
+    3  ls
+    4  exit
+    5  ls
+    6  git clone https://github.com/mids-w205-crook/assignment-01-adamcy99.git
+    7  ls
+    8  cd assignment-01-adamcy99/
+    9  ls
+   10  git branch
+   11  ls
+   12  cd ..
+   13  ls
+   14  cd assignment-01-adamcy99/
+   15  ls
+   16  git status
+   17  exit
+   18  ls
+   19  cd assignment-01-adamcy99/
+   20  ls
+   21  git status
+   22  git pull
+   23  ls
+   24  cat README.md 
+   25  ls
+   26  git status
+   27  git branch assignment
+   28  ls
+   29  git branch
+   30  git checkout assignment
+   31  git branch
+   32  git status
+   33  open README.md 
+   34  open -t README.md 
+   35  vi README.md 
+   36  git status
+   37  git add .
+   38  git commit -m "added answer to README.md"
+   39  git push origin assignment
+   40  ls
+   41  cat README.md 
+   42  exit
+   43  ls
+   44  cd course-content/
+   45  git pull --all
+   46  exit
+   47  ls
+   48  cd
+   49  ls
+   50  pwd
+   51  gcloud init
+   52  ls -la
+   53  ls -la .config
+   54  bq
+   55  bq query --use_legacy_sql=false 'SELECT count(*) FROM `bigquery-public-data.san_francisco.bikeshare_status`'
+   56  bq query --use_legacy_sql=false 'SELECT count(*) FROM `bigquery-public-data.san_francisco.bikeshare_status`'
+   57  bq query --use_legacy_sql=false 'SELECT count(distinct station_id) FROM `bigquery-public-data.san_francisco.bikeshare_status`'
+   58  exit
+   59  exit
+   60  git clone https://github.com/mids-w205-crook/assignment-02-adamcy99.git
+   61  ls
+   62  cd assignment-02-adamcy99/
+   63  ls
+   64  git status
+   65  git branch assignment
+   66  ls
+   67  git status
+   68  git branch
+   69  git checkout assignment
+   70  ls
+   71  git branch
+   72  git status
+   73  ls
+   74  vi README.md 
+   75  git status
+   76  git add .
+   77  git status
+   78  git commit -m "first change to README.md"
+   79  git push origin assignment
+   80  git status
+   81  ls
+   82  vi README.md 
+   83  git add .
+   84  git commit -m "second change to README.md"
+   85  git push origin assignment
+   86  vi README.md 
+   87  git add .
+   88  git commit -m "third change to README.md"
+   89  git push origin assignment
+   90  vi README.md 
+   91  git add .
+   92  git commit -m "finished Week 2 hw"
+   93  git push origin assigment
+   94  git branch
+   95  git status
+   96  git push origin assignment
+   97  exit
+   98  cd ~/course-content/
+   99  git pull --all
+  100  mkdir synch_03
+  101  cd synch_03/
+  102  curl -L -o annot_fpid.json https://goo.gl/rcickz
+  103  curl -L -o lp_data.csv https://goo.gl/rks6h3
+  104  ls
+  105  head lp_data.csv 
+  106  ls
+  107  tail lp_data.csv 
+  108  cat annot_fpid.json | jq
+  109  cat annot_fpid.json | jq .
+  110  cat annot_fpid.json | jq ".[][]"
+  111  cat annot_fpid.json | jq ".[][]" -r
+  112  cat annot_fpid.json | jq ".[][]" -r | sort
+  113  cat annot_fpid.json | jq ".[][]" -r | sort | uniq -c | sort -gr | head -10
+  114  cat lp_data.csv | awk -F',' '{ print $2, $1}' | sort
+  115  exit
+  116  docker ps -a
+  117  docker ps
+  118  exit
+  119  jupyter notebook --no-browser --port 8888 --ip=159.65.69.109 --allow-root 
+  120  ls
+  121  Jupyter Notebook
+  122  jupyter notebook --no-browser --port 8888 --ip=0.0.0.0 --allow-root 
+  123  ls
+  124  git clone https://github.com/mids-w205-crook/assignment-05-adamcy99.git
+  125  ls
+  126  cd assignment-05-adamcy99/
+  127  ls
+  128  git checkout assignment
+  129  ls
+  130  git branch assignment
+  131  git checkout assignment
+  132  git branch
+  133  ls
+  134  jupyter notebook --no-browser --port 8888 --ip=0.0.0.0 --allow-root 
+  135  ls
+  136  cd ..
+  137  ls
+  138  ls
+  139  cd ..
+  140  ls
+  141  cd w205
+  142  ls
+  143  mkdir ~/w205/redis
+  144  ls
+  145  ls
+  146  cd ..
+  147  ls
+  148  cd w205/
+  149  ls
+  150  mkdir ~/w205/redis
+  151  exit
+  152  jupyter notebook --no-browser --port 8888 --ip=0.0.0.0 --allow-root 
+  153  ls
+  154  docker ps -a
+  155  ls
+  156  cd redis
+  157  ls
+  158  rm docker-compose.yml 
+  159  ls
+  160  vi docker-compose.yml
+  161  docker-compose up -d
+  162  ls
+  163  docker-compose up -d
+  164  docker pull midsw205/base:latest
+  165  exit
+  166  ls
+  167  rm Untitled.ipynb 
+  168  ls
+  169  docker ps -a
+  170  ls
+  171  docker ps
+  172  docker ps -a
+  173  quit
+  174  exit
+  175  jupyter notebook --no-browser --port 8888 --ip=0.0.0.0 --allow-root 
+  176  ls
+  177  cd assignment-0
+  178  cd assignment-05
+  179  ls
+  180  cd assignment-05-adamcy99/
+  181  ls
+  182  git status
+  183  exit
+  184  jupyter notebook --no-browser --port 8888 --ip=0.0.0.0 --allow-root 
+  185  ls
+  186  cd assignment-05-adamcy99/
+  187  ls
+  188  git branch
+  189  git checkout master
+  190  ls
+  191  git checkout assignment
+  192  ls
+  193  exit
+  194  jupyter notebook --no-browser --port 8888 --ip=0.0.0.0 --allow-root 
+  195  docker ps -a
+  196  ls
+  197  cd assignment-05-adamcy99/
+  198  ls
+  199  git branch
+  200  git checkout assignment
+  201  ls
+  202  jupyter notebook --no-browser --port 8888 --ip=0.0.0.0 --allow-root 
+  203  ls
+  204  git status
+  205  git add .
+  206  git commit -m "change 2 to project 1"
+  207  git push origin assignment
+  208  ls
+  209  git checkout master
+  210  ls
+  211  git checkout assignment
+  212  ls
+  213  docker ps -a
+  214  exit
+  215  jupyter notebook --no-browser --port 8888 --ip=0.0.0.0 --allow-root 
+  216  ls
+  217  cd assignment-05-adamcy99/
+  218  ls
+  219  git status
+  220  git add .
+  221  git branch
+  222  git commit -m "submitting assignment 5"
+  223  git push origin assignment
+  224  git status
+  225  ls
+  226  ls
+  227  exit
+  228  ls
+  229  cd course-content/
+  230  git pull --all
+  231  exit
+  232  ls
+  233  git clone https://github.com/mids-w205-crook/assignment-06-adamcy99.git
+  234  git branch assignment
+  235  ls
+  236  cd assignment-06-adamcy99/
+  237  ls
+  238  git branch assignment
+  239  git branch
+  240  git config --global user.email "adamcy99@gmail.com"
+  241  git config --global user.name "adamcy99
+  242  "
+  243  ls
+  244  vi docker-compose.yml
+  245  ls
+  246  git branch
+  247  ls
+  248  git reset --hard
+  249  ls
+  250  git clean -fd
+  251  ls
+  252  git status
+  253  ls
+  254  git branch
+  255  git checkout assignment
+  256  ls
+  257  vi docker-compose.yml
+  258  ls
+  259  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/f5bRm4
+  260  ls
+  261  docker-compose up -d
+  262  ls
+  263  docker-compose up -d
+  264  exit
+  265  ls
+  266  cd assignment-06-adamcy99/
+  267  ls
+  268  history > adamcy99-history.txt
